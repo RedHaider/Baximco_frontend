@@ -1,0 +1,22 @@
+<nav>  component, containing the nav information
+<container>
+<tag>
+ <row_1>
+  <col_1>
+   {Ponit selection filter}
+  </col_1>
+  <col_2>
+    {Title}
+  </col_2>
+  <col_3>
+   {Data Range Selection}
+  </col_3>
+</row>
+ <row_2>
+   {Scroll able table}
+</row>
+<row>
+ {Download Button}
+</row>
+</container>
+</tag>
