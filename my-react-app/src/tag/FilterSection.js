@@ -1,7 +1,7 @@
 import DateRangePicker from "./DateRangePicker";
 import PointSelector from "./PointSelector";
 
-const FilterSection = () => {
+const FilterSection = ({uniqueNames, setFilteredNames}) => {
 
 
     return ( 
@@ -10,7 +10,10 @@ const FilterSection = () => {
         <div className="col-sm-4">
             <div class="card">
                 <h5 className="card-title">Point Selector</h5>
-                <PointSelector/>
+                <PointSelector 
+                uniqueNames={uniqueNames} 
+                setFilteredNames = {setFilteredNames}
+                />
             </div>
         </div>
         <div className="col-sm-4">
