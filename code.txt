@@ -1,0 +1,2 @@
+#add json server
+stor the json data within a json file haivng a resource(top level property)

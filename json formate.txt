@@ -1,0 +1,149 @@
+[
+  {
+    "id": "1",
+    "created_at": "2024-06-06T11:50:24.302950Z",
+    "updated_at": "2024-06-06T11:50:24.302979Z",
+    "var_name": "SAD1.2_60117QT51 - 60117QT51 - TOC(ppb)",
+    "time_string": "2024-02-18T10:37:44Z",
+    "var_value": 48.33984,
+    "validity": true,
+    "time_ms": 45340442873.4491,
+    "checksum": "S5ET88",
+    "directory": {
+      "id": 1,
+      "created_at": "2024-06-03T10:52:44.176022Z",
+      "updated_at": "2024-06-06T11:48:08.390784Z",
+      "name": "60117QT510",
+      "type": "tag",
+      "dir_path": "/home/SCADA_PWGUI1/60117QT510/60117QT510.csv",
+      "index": 0,
+      "created_by": 1
+    }
+  },
+  {
+    "id": "752",
+    "created_at": "2024-06-06T11:50:32.782703Z",
+    "updated_at": "2024-06-06T11:50:32.782721Z",
+    "var_name": "SAD1.2_60110TT52 - 60110TT52 - temperature loop return before HE(°C)",
+    "time_string": "2024-02-19T12:52:44Z",
+    "var_value": 23.02517,
+    "validity": true,
+    "time_ms": 45341036626.1227,
+    "checksum": "R3ddVZ",
+    "directory": {
+      "id": 3,
+      "created_at": "2024-06-03T10:53:39.766037Z",
+      "updated_at": "2024-06-06T11:48:25.138485Z",
+      "name": "60110TT520",
+      "type": "tag",
+      "dir_path": "/home/SCADA_PWGU2/60110TT520/60110TT520.csv",
+      "index": 0,
+      "created_by": 1
+    }
+  },
+  {
+    "id": "955",
+    "created_at": "2024-06-06T11:50:35.075707Z",
+    "updated_at": "2024-06-06T11:50:35.075727Z",
+    "var_name": "SAD1.2_60120QT51 - 60120QT51 - conductivity loop return(µS/cm)",
+    "time_string": "2024-02-18T05:42:44Z",
+    "var_value": 0.7434534,
+    "validity": true,
+    "time_ms": 45340738013.3796,
+    "checksum": "1QCs1J",
+    "directory": {
+      "id": 5,
+      "created_at": "2024-06-03T10:54:13.971040Z",
+      "updated_at": "2024-06-06T11:48:33.086883Z",
+      "name": "60120QT510",
+      "type": "tag",
+      "dir_path": "/home/SCADA_PWGUI1/60120QT510/60120QT510.csv",
+      "index": 0,
+      "created_by": 1
+    }
+  },
+  {
+    "id": "1140",
+    "created_at": "2024-06-06T11:50:36.874293Z",
+    "updated_at": "2024-06-06T11:50:36.874313Z",
+    "var_name": "SAD1.2_60120QT51 - 60120QT51 - conductivity loop return(µS/cm)",
+    "time_string": "2024-02-19T09:07:45Z",
+    "var_value": 0.7514106,
+    "validity": true,
+    "time_ms": 45341380377.419,
+    "checksum": "CquUQh",
+    "directory": {
+      "id": 5,
+      "created_at": "2024-06-03T10:54:13.971040Z",
+      "updated_at": "2024-06-06T11:48:33.086883Z",
+      "name": "60120QT510",
+      "type": "tag",
+      "dir_path": "/home/SCADA_PWGUI1/60120QT510/60120QT510.csv",
+      "index": 0,
+      "created_by": 1
+    }
+  },
+  {
+    "id": "1608",
+    "created_at": "2024-06-06T11:50:41.677660Z",
+    "updated_at": "2024-06-06T11:50:41.677710Z",
+    "var_name": "SAD1.2_60130TT52 - 60130TT52 - temperature loop return before HE(°C)",
+    "time_string": "2024-02-18T11:47:44Z",
+    "var_value": 23.68707,
+    "validity": true,
+    "time_ms": 45340991486.7245,
+    "checksum": "NnRHRl",
+    "directory": {
+      "id": 8,
+      "created_at": "2024-06-03T10:55:17.993150Z",
+      "updated_at": "2024-06-06T11:48:54.782764Z",
+      "name": "60130TT520",
+      "type": "tag",
+      "dir_path": "/home/SCADA_SAD/60130TT520/60130TT520.csv",
+      "index": 0,
+      "created_by": 1
+    }
+  },
+  {
+    "id": "2005",
+    "created_at": "2024-06-06T11:50:45.944431Z",
+    "updated_at": "2024-06-06T11:50:45.944465Z",
+    "var_name": "SAD1.2_60130QT51 - 60130QT51 - conductivity loop return(µS/cm)",
+    "time_string": "2024-02-19T08:42:45Z",
+    "var_value": 0.7732928,
+    "validity": true,
+    "time_ms": 45341363016.1806,
+    "checksum": "AdmEt7",
+    "directory": {
+      "id": 7,
+      "created_at": "2024-06-03T10:54:57.198472Z",
+      "updated_at": "2024-06-06T11:49:02.973480Z",
+      "name": "60130QT510",
+      "type": "tag",
+      "dir_path": "/home/SCADA_SAD/60130QT510/60130QT510.csv",
+      "index": 0,
+      "created_by": 1
+    }
+  },
+  {
+    "id": "2319",
+    "created_at": "2024-06-06T11:50:48.826132Z",
+    "updated_at": "2024-06-06T11:50:48.826153Z",
+    "var_name": "SAD1.2_60120TT52 - 60120TT52 - temperature loop return before HE(°C)",
+    "time_string": "2024-02-19T10:42:45Z",
+    "var_value": 23.82813,
+    "validity": true,
+    "time_ms": 45341446350.1852,
+    "checksum": "qtNK2T",
+    "directory": {
+      "id": 6,
+      "created_at": "2024-06-03T10:54:34.304454Z",
+      "updated_at": "2024-06-06T11:49:08.866808Z",
+      "name": "60120TT520",
+      "type": "tag",
+      "dir_path": "/home/SCADA_PWGUI1/60120TT520/60120TT520.csv",
+      "index": 0,
+      "created_by": 1
+    }
+  }
+]

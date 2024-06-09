@@ -1,0 +1,22 @@
+/* Make the first column sticky */
+.sticky-column {
+    position: sticky;
+    left: 0;
+    background-color: #f8f9fa; /* Adjust as needed */
+    z-index: 2; /* Set a higher z-index */
+}
+
+/* Make the table header sticky */
+.table thead th.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff; /* Adjust as needed */
+    z-index: 1; /* Set a lower z-index */
+}
+/* Make the Time String column sticky */
+.sticky-timestring {
+    position: sticky;
+    left: 0;
+    background-color: #f8f9fa; /* Adjust as needed */
+    z-index: 3; /* Set a higher z-index */
+}

@@ -34,7 +34,7 @@ const DateRangePicker = () => {
                    />
             </div>
             <div>
-            <div className="date-picker mt-2">
+            <div className="date-picker mt-2 mb-1">
                 <label className="col-2">To:</label>
                 <DatePicker
                    className="col-8"
