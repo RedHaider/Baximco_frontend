@@ -3,7 +3,7 @@ import DatePicker from "react-datepicker";
 import 'react-datepicker/dist/react-datepicker.css';
 
 
-const DateRangePicker = () => {
+const DateRangePicker = ({Date}) => {
  const [startDate, setStartDate] = useState(null);
  const [endDate, setEndDate] = useState(null);
 
@@ -17,6 +17,9 @@ const DateRangePicker = () => {
  const handleEndDate = (date) => {
     setEndDate(date);
  }
+ 
+ 
+
 
     return ( 
         <div className="row">

@@ -1,14 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import FilterSection from "./tag/FilterSection";
-import TableSection from "./tag/TableSection";
 import ButtonDownload from "./tag/ButtonDownload";
+import ChartBody from "./chart/chartBody";
 
 const Tag = () => {
     const [uniqueNames, setUniqueNames] = useState([]);
     const [filteredName, setFilteredNames] = useState([]);
-    const [Date, setDate] = useState([])
-
-    console.log(filteredName)
 
 
 
@@ -18,12 +15,10 @@ const Tag = () => {
                 <FilterSection 
                 uniqueNames={uniqueNames} 
                 setFilteredNames = {setFilteredNames}
-                Date = {Date}
                  />
-                <TableSection 
+                <ChartBody
                 setUniqueNames={setUniqueNames} 
                 filteredNames = {filteredName}
-                setDate = {setDate}
                 />
                 <ButtonDownload  />
 

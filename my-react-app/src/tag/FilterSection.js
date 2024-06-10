@@ -1,7 +1,7 @@
 import DateRangePicker from "./DateRangePicker";
 import PointSelector from "./PointSelector";
 
-const FilterSection = ({uniqueNames, setFilteredNames}) => {
+const FilterSection = ({uniqueNames, setFilteredNames, Date}) => {
 
 
     return ( 
@@ -24,7 +24,9 @@ const FilterSection = ({uniqueNames, setFilteredNames}) => {
         <div className="col-sm-4">
         <div class="card">
             <h5 className="card-title">Date Range</h5>
-             <DateRangePicker/>
+             <DateRangePicker
+             Date = {Date}
+             />
             </div>
             </div>
         </div>

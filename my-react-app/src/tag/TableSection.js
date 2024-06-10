@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import '../css/table.css';
 
-const TableSection = ({uniqueNames, setUniqueNames,filteredNames }) => {
+const TableSection = ({ setUniqueNames,filteredNames,setDate }) => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -21,13 +21,17 @@ const TableSection = ({uniqueNames, setUniqueNames,filteredNames }) => {
 
                 const names = Array.from(new Set(data.map(item => item.directory.name)));
                 setUniqueNames(names);
+
+                // Extract time_string values and set them using setDate
+                const datetime = data.map(item => item.time_string);
+                setDate(datetime);
             })
             .catch((error) => {
                 console.error('Fetch error:', error);
                 setError(error);
                 setLoading(false);
             });
-    }, [setUniqueNames]);
+    }, [setUniqueNames, setDate]);
 
     if (error) {
         return <div>Error: {error.message}</div>;
@@ -47,6 +51,7 @@ const TableSection = ({uniqueNames, setUniqueNames,filteredNames }) => {
     }, {});
 
     const rows = Object.values(groupedData);
+
 
     return (
         <div style={{ overflowX: 'auto', overflowY: 'auto', maxHeight: '800px', maxWidth: '1000px' }} >
